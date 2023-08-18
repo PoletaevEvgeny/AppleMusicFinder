@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FD0C9FC42A8E4987009FA70C /* MainScreenConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C9FC32A8E4987009FA70C /* MainScreenConfigurator.swift */; };
 		FD0C9FC92A8F3687009FA70C /* MusicTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C9FC82A8F3687009FA70C /* MusicTrack.swift */; };
-		FD0C9FCB2A8F376D009FA70C /* MainScreenVeiwController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C9FCA2A8F376D009FA70C /* MainScreenVeiwController.swift */; };
+		FD0C9FCB2A8F376D009FA70C /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C9FCA2A8F376D009FA70C /* MainScreenViewController.swift */; };
 		FDCC98CC2A7D9DE50013115F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC98CB2A7D9DE50013115F /* AppDelegate.swift */; };
 		FDCC98CE2A7D9DE50013115F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC98CD2A7D9DE50013115F /* SceneDelegate.swift */; };
 		FDCC98D32A7D9DE50013115F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCC98D12A7D9DE50013115F /* Main.storyboard */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		FD0C9FC32A8E4987009FA70C /* MainScreenConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenConfigurator.swift; sourceTree = "<group>"; };
 		FD0C9FC82A8F3687009FA70C /* MusicTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTrack.swift; sourceTree = "<group>"; };
-		FD0C9FCA2A8F376D009FA70C /* MainScreenVeiwController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenVeiwController.swift; sourceTree = "<group>"; };
+		FD0C9FCA2A8F376D009FA70C /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		FDCC98C82A7D9DE50013115F /* AppleMusicFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusicFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCC98CB2A7D9DE50013115F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDCC98CD2A7D9DE50013115F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 		FDEA00A42A8F85B200FE64CB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FD0C9FCA2A8F376D009FA70C /* MainScreenVeiwController.swift */,
+				FD0C9FCA2A8F376D009FA70C /* MainScreenViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -185,7 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD0C9FC92A8F3687009FA70C /* MusicTrack.swift in Sources */,
-				FD0C9FCB2A8F376D009FA70C /* MainScreenVeiwController.swift in Sources */,
+				FD0C9FCB2A8F376D009FA70C /* MainScreenViewController.swift in Sources */,
 				FD0C9FC42A8E4987009FA70C /* MainScreenConfigurator.swift in Sources */,
 				FDCC98CC2A7D9DE50013115F /* AppDelegate.swift in Sources */,
 				FDCC98CE2A7D9DE50013115F /* SceneDelegate.swift in Sources */,
