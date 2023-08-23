@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2517802A96662B00F82D4A /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE25177F2A96662B00F82D4A /* SampleViewController.swift */; };
+		CE2517822A96663700F82D4A /* SampleViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2517812A96663700F82D4A /* SampleViewInput.swift */; };
+		CE2517842A9667B300F82D4A /* SamplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2517832A9667B300F82D4A /* SamplePresenter.swift */; };
+		CE2517862A9667BB00F82D4A /* SampleViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2517852A9667BB00F82D4A /* SampleViewOutput.swift */; };
+		CE2517882A96689C00F82D4A /* SampleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2517872A96689C00F82D4A /* SampleConfigurator.swift */; };
 		FDCC98CC2A7D9DE50013115F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC98CB2A7D9DE50013115F /* AppDelegate.swift */; };
 		FDCC98CE2A7D9DE50013115F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC98CD2A7D9DE50013115F /* SceneDelegate.swift */; };
 		FDCC98D02A7D9DE50013115F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC98CF2A7D9DE50013115F /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE25177F2A96662B00F82D4A /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		CE2517812A96663700F82D4A /* SampleViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewInput.swift; sourceTree = "<group>"; };
+		CE2517832A9667B300F82D4A /* SamplePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePresenter.swift; sourceTree = "<group>"; };
+		CE2517852A9667BB00F82D4A /* SampleViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewOutput.swift; sourceTree = "<group>"; };
+		CE2517872A96689C00F82D4A /* SampleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleConfigurator.swift; sourceTree = "<group>"; };
 		FDCC98C82A7D9DE50013115F /* AppleMusicFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusicFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCC98CB2A7D9DE50013115F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDCC98CD2A7D9DE50013115F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +47,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE25177B2A9665FB00F82D4A /* SampleScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE25177E2A96661900F82D4A /* Configurator */,
+				CE25177D2A96661500F82D4A /* Presenter */,
+				CE25177C2A96661100F82D4A /* View */,
+			);
+			path = SampleScreen;
+			sourceTree = "<group>";
+		};
+		CE25177C2A96661100F82D4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE25177F2A96662B00F82D4A /* SampleViewController.swift */,
+				CE2517812A96663700F82D4A /* SampleViewInput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE25177D2A96661500F82D4A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CE2517832A9667B300F82D4A /* SamplePresenter.swift */,
+				CE2517852A9667BB00F82D4A /* SampleViewOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CE25177E2A96661900F82D4A /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				CE2517872A96689C00F82D4A /* SampleConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
 		FDCC98BF2A7D9DE50013115F = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +102,7 @@
 		FDCC98CA2A7D9DE50013115F /* AppleMusicFinder */ = {
 			isa = PBXGroup;
 			children = (
+				CE25177B2A9665FB00F82D4A /* SampleScreen */,
 				FDCC98CB2A7D9DE50013115F /* AppDelegate.swift */,
 				FDCC98CD2A7D9DE50013115F /* SceneDelegate.swift */,
 				FDCC98CF2A7D9DE50013115F /* ViewController.swift */,
@@ -138,8 +185,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2517882A96689C00F82D4A /* SampleConfigurator.swift in Sources */,
 				FDCC98D02A7D9DE50013115F /* ViewController.swift in Sources */,
 				FDCC98CC2A7D9DE50013115F /* AppDelegate.swift in Sources */,
+				CE2517842A9667B300F82D4A /* SamplePresenter.swift in Sources */,
+				CE2517862A9667BB00F82D4A /* SampleViewOutput.swift in Sources */,
+				CE2517822A96663700F82D4A /* SampleViewInput.swift in Sources */,
+				CE2517802A96662B00F82D4A /* SampleViewController.swift in Sources */,
 				FDCC98CE2A7D9DE50013115F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
