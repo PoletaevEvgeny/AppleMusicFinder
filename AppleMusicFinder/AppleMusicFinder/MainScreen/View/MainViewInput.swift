@@ -1,14 +1,14 @@
 //
-//  ViewInputDelegate.swift
+//  MainViewInput.swift
 //  AppleMusicFinder
 //
 //  Created by Евгений Полетаев on 23.08.2023.
 //
 
-import Foundation
+import UIKit
 
-protocol ViewInputDelegate: AnyObject {
+protocol MainViewInput: AnyObject {
     func setupInitialState()
-    func setupData(with testData: ([Music]))
+    func setupData(with testData: ([MusicTrack]))
     func displayData(i: Int)
 }
